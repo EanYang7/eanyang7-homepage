@@ -1,3 +1,5 @@
+const { BLOG_URL } = process.env;
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   async rewrites() {
@@ -12,19 +14,11 @@ const nextConfig = {
       },
       {
         source: "/blog",
-        destination: `https://blog-psi-pied-75.vercel.app/blog`,
+        destination: `${BLOG_URL}/blog`,
       },
       {
         source: "/blog/:path*",
-        destination: `https://blog-psi-pied-75.vercel.app/blog/:path*`,
-      },
-      {
-        source: "/blog",
-        destination: `https://doc-ten-lilac.vercel.app/blog`,
-      },
-      {
-        source: "/blog/:path*",
-        destination: `https://doc-ten-lilac.vercel.app/blog/:path*`,
+        destination: `${BLOG_URL}/blog/:path*`,
       },
     ];
   },
