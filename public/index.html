@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <head>
+    <title>Ean Yang</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=2,viewport-fit=cover"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit" />
+    <meta name="author" content="Ean Yang" />
+    <meta name="theme-color" content="#222325" />
+    <meta name="msapplication-navbutton-color" content="#222325" />
+    <link rel="stylesheet" href="./css/comic.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta http-equiv="x-dns-prefetch-control" content="on" />
+    <link rel="prefetch" href="https://cdn.jsdelivr.net/" />
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net/" />
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com/" />
+    <link rel="dns-prefetch" href="https://disqus.com/" />
+    <link rel="dns-prefetch" href="https://api.github.com/" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="./favicon.ico" />
+    <link href="index.html" rel="canonical" />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="msapplication-starturl" content="index.html" />
+    <meta name="application-name" content="yes" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="index.html" />
+    <meta property="og:locale" content="en" />
+    <meta
+      name="description"
+      content="Input &amp; Think &amp; Output - Ean Yang "
+    />
+    <meta name="keywords" content="Homepage,主页,EanYang" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="index.html" />
+    <meta name="twitter:creator" content="Ean Yang" />
+    <script type="application/ld+json">
+      {
+      	"@context": "http://schema.org",
+      	"@type": "Blog",
+      	"author": {
+      		"@type": "Person",
+      		"name": "Ean Yang",
+      		"image": {
+      			"@type": "ImageObject",
+      			"url": "./avatar.jpg"
+      		},
+      		"description": "Input & Think & Output"
+      	},
+      	"publisher": {
+      		"@type": "Organization",
+      		"name": "Ean Yang",
+      		"logo": {
+      			"@type": "ImageObject",
+      			"url": "./favicon.ico"
+      		}
+      	},
+      	"url": "https://tomotoes.com/",
+      	"logo": "https://tomotoes.com/images/PWA/192.png",
+      	"image": {
+      		"@type": "ImageObject",
+      		"url": "https://tomotoes.com/images/PWA/192.png"
+      	},
+      	"mainEntityOfPage": {
+      		"@type": "WebPage",
+      		"@id": "https://tomotoes.com/"
+      	},
+      	"keywords": Homepage,主页,EanYang",
+      	"description": "Input & Think & Output - Ean Yang"
+      }
+    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-109696496-3"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-109696496-3");
+    </script>
+    <!--[if lt IE 9
+      ]><style>
+        .alert {
+          padding: 15px;
+          margin-bottom: 20px;
+          border: 1px solid transparent;
+          border-radius: 4px;
+        }
+        .alert-danger {
+          background-color: #f2dede;
+          border-color: #ebccd1;
+          color: #a94442;
+          border-bottom: 1px solid #ebccd1;
+        }
+        .alert-link {
+          color: #843534;
+          font-weight: bold;
+        }
+        .topframe {
+          margin: 0;
+          padding-left: 15px;
+          padding-right: 15px;
+          text-align: center;
+          border-radius: 0;
+          position: fixed;
+          left: 0;
+          right: 0;
+          top: 0;
+          z-index: 1000;
+        }
+      </style>
+      <div class="alert alert-danger topframe">
+        你的浏览器实在<strong>太太太太太太旧了</strong>，放学别走，升级完浏览器再说<a
+          class="alert-link"
+          target="_blank"
+          href="http://browsehappy.com"
+          >立即升级</a
+        >
+      </div>
+      <script src="https://cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script
+    ><![endif]-->
+  </head>
+</html>
+<body>
+  <main>
+    <div class="content content-intro">
+      <div class="content-inner">
+        <canvas id="background"></canvas>
+        <div class="wrap fade">
+          <a
+            class="github-corner"
+            href="https://github.com/YQisme"
+            aria-label="View source on GitHub"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><svg
+              width="80"
+              height="80"
+              viewBox="0 0 250 250"
+              style="
+                fill: transparent;
+                color: #fff;
+                position: absolute;
+                top: 0;
+                border: 0;
+                right: 0;
+              "
+              aria-hidden="true"
+            >
+              <path d="M0 0 115 115 130 115 142 142 250 250 250 0Z"></path>
+              <path
+                class="octo-arm"
+                d="M128.3 109C113.8 99.7 119 89.6 119 89.6 122 82.7 120.5 78.6 120.5 78.6 119.2 72 123.4 76.3 123.4 76.3 127.3 80.9 125.5 87.3 125.5 87.3 122.9 97.6 130.6 101.9 134.4 103.2"
+                fill="currentColor"
+                style="transform-origin: 130px 106px"
+              ></path>
+              <path
+                class="octo-body"
+                d="M115 115C114.9 115.1 118.7 116.5 119.8 115.4L133.7 101.6C136.9 99.2 139.9 98.4 142.2 98.6 133.8 88 127.5 74.4 143.8 58 148.5 53.4 154 51.2 159.7 51 160.3 49.4 163.2 43.6 171.4 40.1 171.4 40.1 176.1 42.5 178.8 56.2 183.1 58.6 187.2 61.8 190.9 65.4 194.5 69 197.7 73.2 200.1 77.6 213.8 80.2 216.3 84.9 216.3 84.9 212.7 93.1 206.9 96 205.4 96.6 205.1 102.4 203 107.8 198.3 112.5 181.9 128.9 168.3 122.5 157.7 114.1 157.9 116.9 156.7 120.9 152.7 124.9L141 136.5C139.8 137.7 141.6 141.9 141.8 141.8Z"
+                fill="currentColor"
+              ></path></svg></a
+          ><style>
+            .github-corner:hover .octo-arm {
+              animation: octocat-wave 560ms ease-in-out;
+            }
+            @keyframes octocat-wave {
+              0%,
+              100% {
+                transform: rotate(0);
+              }
+              20%,
+              60% {
+                transform: rotate(-25deg);
+              }
+              40%,
+              80% {
+                transform: rotate(10deg);
+              }
+            }
+            @media (max-width: 500px) {
+              .github-corner:hover .octo-arm {
+                animation: none;
+              }
+              .github-corner .octo-arm {
+                animation: octocat-wave 560ms ease-in-out;
+              }
+            }
+          </style>
+          <h2 class="content-title">Ean Yang</h2>
+          <h3 class="content-subtitle" original-content="文明精神🕮 强健体魄💪">
+            &nbsp;
+          </h3>
+          <a class="enter">here</a>
+          <div class="arrow arrow-1"></div>
+          <div class="arrow arrow-2"></div>
+        </div>
+      </div>
+      <div class="shape-wrap">
+        <svg
+          class="shape"
+          width="100%"
+          height="100vh"
+          preserveAspectRatio="none"
+          viewBox="0 0 1440 800"
+          xmlns:pathdata="http://www.codrops.com/"
+        >
+          <path
+            d="M-44-50C-52.71 28.52 15.86 8.186 184 14.69 383.3 22.39 462.5 12.58 638 14 835.5 15.6 987 6.4 1194 13.86 1661 30.68 1652-36.74 1582-140.1 1512-243.5 15.88-589.5-44-50Z"
+            pathdata:id="M -44,-50 C -137.1,117.4 67.86,445.5 236,452 435.3,459.7 500.5,242.6 676,244 873.5,245.6 957,522.4 1154,594 1593,753.7 1793,226.3 1582,-126 1371,-478.3 219.8,-524.2 -44,-50 Z"
+          ></path>
+        </svg>
+      </div>
+    </div>
+    <div class="content content-main">
+      <div id="card">
+        <div class="card-inner fade">
+          <header>
+            <img src="./avatar.jpg" width="100" height="100" alt="avatar" />
+            <h1 data-translate="name">Ean Yang</h1>
+            <h2 id="signature" data-translate="signature">
+              Input &amp; Think &amp; Output
+            </h2>
+          </header>
+          <ul>
+            <li>
+              <a href="/blog/" aria-label="Blog"
+                ><svg
+                  t="1698054531513"
+                  class="icon"
+                  viewBox="0 0 1024 1024"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  p-id="6308"
+                  width="200"
+                  height="200"
+                >
+                  <path
+                    d="M143.1 99.8h597.1c44 0 79.6 35.6 79.6 79.6v664c0 44-35.6 79.6-79.6 79.6H143.1c-44 0-79.6-35.6-79.6-79.6v-664c0-44 35.6-79.6 79.6-79.6z"
+                    fill="#333333"
+                    p-id="6309"
+                  ></path>
+                  <path
+                    d="M501.3 478.2h-252c-18.3 0-33.2 14.9-33.2 33.2s14.9 33.2 33.2 33.2h252.1c18.3 0 33.2-14.9 33.2-33.2s-14.9-33.2-33.3-33.2zM395.2 650.7H249.3c-18.3 0-33.2 14.9-33.2 33.2 0 18.3 14.9 33.2 33.2 33.2h145.9c18.3 0 33.2-14.9 33.2-33.2 0-18.3-14.9-33.2-33.2-33.2zM634 305.8H249.3c-18.3 0-33.2 14.9-33.2 33.2s14.9 33.2 33.2 33.2H634c18.3 0 33.2-14.9 33.2-33.2s-14.9-33.2-33.2-33.2z"
+                    fill="#FFFFFF"
+                    p-id="6310"
+                  ></path>
+                  <path
+                    d="M957 475.7c-1.2-6.1-3-12.2-5.4-17.7l-0.1-0.3-0.2-0.3c-5.8-12.7-13.7-24.8-23.7-35.9-10.4-11.6-20.5-19.9-30.6-25.4-5.3-2.8-10.7-5-16.9-6.9-7.3-2.2-14.5-3.4-22-3.8-1.3 0-2.1-0.1-3-0.1-7.7 0-15.4 1.2-23.1 3.6-8.9 2.8-17.6 7.4-25.6 13.9l-0.5 0.4-0.5 0.4c-3.9 3.3-8.5 7.5-13.5 12.4-4.5 4.5-8.4 8.1-11.6 11.2l-3.3 3.2-0.1-0.1-2.4 2.5-25.7 24.5 1 1-2.1 2.2-90.1 93.2-34 35.1-30.6 31.6c-9.4 9.7-17.2 17.8-23.5 24.5l-10.1 10.6-1.4 1.5c-5.8 6-10.6 11.9-14.2 17.7-3 4.7-5.8 10.1-8.3 15.8-2.4 4.8-4.6 10.7-7.4 19.3-2.4 7.3-4.8 15.3-7.3 24.1-2.4 8.3-4.7 16.4-6.8 24.2-2.8 10.2-4.3 17.4-5.2 23.4-2.9 19.2 0.7 35.7 10.8 48.6 6 7.6 19.1 19.7 42.7 19.7 2.9 0 6-0.2 9.2-0.5l0.8-0.1 0.8-0.1c5-0.8 11.4-2.3 20.7-4.8 7.9-2.1 16.3-4.7 25.7-7.8 8.8-3 17.2-6 25.3-9 8.7-3.4 15.3-6.2 20.4-8.7 6.7-3.1 13.1-7.1 19.1-11.9 4-3.1 7.7-6.3 11-9.3 2.8-2.4 6.2-5.8 12.9-12.7 6.1-6.3 13.5-14.1 22.5-23.5 8.1-8.6 17.5-18.2 29.7-30.5l0.3-0.3 0.2-0.3 33.5-35.1 90-93 29.1-30.1-0.1-0.1 0.3-0.3c2.6-2.3 5.4-5 8.3-8 1.8-1.8 3.9-4 6.3-6.3 2.9-2.9 6.1-6.1 9.7-9.8l0.6-0.6 0.6-0.6c6.6-7.4 11.6-15.7 14.9-24.5 3.2-8.5 4.8-17.5 4.8-26.5 0.1-6.7-0.6-13.3-1.9-19.7z"
+                    fill="#FFFFFF"
+                    p-id="6311"
+                  ></path>
+                  <path
+                    d="M765.2 665.3l-33.5 35.1c-11.1 11.3-21.2 21.6-30.2 31-8.9 9.4-16.3 17.1-22.2 23.2-5.9 6.1-9.4 9.5-10.5 10.4-2.8 2.6-6 5.4-9.6 8.2-3.6 2.9-7.4 5.2-11.3 7-3.9 2-9.6 4.4-17.2 7.4-7.6 2.9-15.4 5.7-23.7 8.4-8.2 2.7-16.1 5.1-23.5 7.1-7.4 2-12.9 3.3-16.6 3.9-1.6 0.2-3.2 0.3-4.5 0.3-5 0-8.6-1.2-10.5-3.7-2.5-3.2-3.2-8.5-2.1-16 0.6-4.1 1.9-9.9 4-17.6 2.1-7.7 4.3-15.6 6.7-23.8 2.4-8.3 4.7-15.9 6.9-22.8s4.1-11.7 5.5-14.3c1.7-4 3.6-7.7 5.7-11s5.1-7 9-11c1.7-1.8 5.6-5.9 11.8-12.4 6.1-6.5 13.8-14.5 23.1-24.1l30.6-31.6 34-35.1 90.1-93.2 78.4 81.5-90.4 93.1z m150.5-158.6c-1.4 3.8-3.6 7.4-6.7 10.8-3.3 3.5-6.4 6.5-9 9.1l-6.9 6.9c-2.2 2.3-4.3 4.3-6.3 6.1l-78.4-81c3.4-3.2 7.4-7 11.9-11.5 4.6-4.5 8.5-8 11.5-10.6 3.9-3.1 8-5.4 12.1-6.7 3.8-1.2 7.5-1.8 11.2-1.8h1.2c4 0.2 8 0.8 11.7 1.9 3.8 1.2 7.1 2.5 9.8 3.9 5.9 3.2 12.4 8.7 19.5 16.6 7.1 7.9 12.6 16.3 16.6 24.9 1.1 2.6 2 5.6 2.7 9.1 0.7 3.5 1.1 7.1 1.1 10.8 0.1 3.9-0.6 7.7-2 11.5z"
+                    fill="#333333"
+                    p-id="6312"
+                  ></path></svg
+                ><span data-translate="Blog">博客</span></a
+              >
+            </li>
+            <li>
+              <a href="/doc/" aria-label="About"
+                ><svg
+                  t="1698054427875"
+                  class="icon"
+                  viewBox="0 0 1026 1024"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  p-id="4942"
+                  width="200"
+                  height="200"
+                >
+                  <path
+                    d="M1015.808 790.528q5.12 30.72-12.8 55.296t-48.64 29.696l-122.88 19.456q-29.696 5.12-54.784-12.8t-30.208-48.64l-104.448-661.504q-2.048-15.36 1.536-29.184t11.776-25.6 20.992-19.456 28.16-10.752l121.856-19.456q30.72-5.12 55.296 13.312t29.696 49.152zM500.736 63.488q30.72 0 52.224 21.504t21.504 52.224l0 684.032q0 30.72-21.504 52.224t-52.224 21.504l-106.496 0q-30.72 0-52.224-21.504t-21.504-52.224l0-684.032q0-30.72 16.384-52.224t48.128-21.504l115.712 0zM500.736 579.584q10.24 0 17.408-9.728t7.168-23.04q0-14.336-7.168-23.552t-17.408-9.216l-106.496 0q-10.24 0-17.408 9.216t-7.168 23.552q0 13.312 7.168 23.04t17.408 9.728l106.496 0zM500.736 449.536q10.24 0 17.408-9.728t7.168-24.064-7.168-23.552-17.408-9.216l-106.496 0q-10.24 0-17.408 9.216t-7.168 23.552 7.168 24.064 17.408 9.728l106.496 0zM179.2 63.488q30.72 0 52.736 21.504t22.016 52.224l0 684.032q0 30.72-22.016 52.224t-52.736 21.504l-106.496 0q-30.72 0-52.736-21.504t-22.016-52.224l0-684.032q0-30.72 22.016-52.224t52.736-21.504l106.496 0zM76.8 319.488q-11.264 0-18.432 9.216t-7.168 23.552q0 13.312 7.168 23.04t18.432 9.728l98.304 0q11.264 0 17.92-9.728t6.656-23.04q0-14.336-6.656-23.552t-17.92-9.216l-98.304 0zM179.2 641.024q11.264 0 17.92-9.216t6.656-22.528q0-14.336-6.656-23.04t-17.92-8.704l-102.4 0q-11.264 0-18.432 8.704t-7.168 23.04q0 13.312 7.168 22.528t18.432 9.216l102.4 0zM179.2 515.072q11.264 0 17.92-9.216t6.656-23.552-6.656-23.552-17.92-9.216l-102.4 0q-11.264 0-18.432 9.216t-7.168 23.552 7.168 23.552 18.432 9.216l102.4 0z"
+                    p-id="4943"
+                    data-spm-anchor-id="a313x.search_index.0.i1.47a23a81C3qFjd"
+                    class="selected"
+                  ></path></svg
+                ><span data-translate="About">文档</span></a
+              >
+            </li>
+            <li>
+              <a href="/knowledge/" aria-label="Thinking"
+                ><svg
+                  t="1698054742637"
+                  class="icon"
+                  viewBox="0 0 1024 1024"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  p-id="21259"
+                  width="200"
+                  height="200"
+                >
+                  <path
+                    d="M372.363636 744.727273h-76.101818a54.225455 54.225455 0 0 1-50.036363-30.487273 40.727273 40.727273 0 0 1-4.887273-23.272727 151.738182 151.738182 0 0 0-23.272727-82.152728 152.436364 152.436364 0 0 0-20.945455-24.901818 351.883636 351.883636 0 0 1-41.890909-56.087272 302.545455 302.545455 0 0 1-27.927273-54.69091A180.363636 180.363636 0 0 1 116.363636 418.909091a246.923636 246.923636 0 0 1 6.050909-61.44 222.021818 222.021818 0 0 1 38.167273-84.712727A268.8 268.8 0 0 1 261.585455 186.181818a240.174545 240.174545 0 0 1 54.690909-18.385454 286.952727 286.952727 0 0 1 69.818181-5.585455 256 256 0 0 1 93.09091 21.178182 251.810909 251.810909 0 0 1 52.363636 32.349091 281.6 281.6 0 0 1 60.974545 67.723636 229.934545 229.934545 0 0 1 31.185455 76.334546 222.254545 222.254545 0 0 1 4.654545 66.792727 184.32 184.32 0 0 1-13.963636 55.621818 312.32 312.32 0 0 1-44.683636 77.265455 328.145455 328.145455 0 0 1-25.134546 28.858181 114.269091 114.269091 0 0 0-23.272727 34.676364 165.701818 165.701818 0 0 0-14.196364 40.261818c-1.163636 8.610909-1.163636 16.989091-2.094545 25.367273a124.741818 124.741818 0 0 1-2.56 18.385455 51.665455 51.665455 0 0 1-24.901818 29.323636 58.88 58.88 0 0 1-29.323637 7.214545z m-26.996363-512c-7.68 0-15.592727 1.396364-23.272728 2.792727a151.738182 151.738182 0 0 0-52.596363 18.850909 171.752727 171.752727 0 0 0-39.330909 31.418182 165.003636 165.003636 0 0 0-30.72 45.149091A169.658182 169.658182 0 0 0 186.181818 397.963636a19.549091 19.549091 0 1 0 39.098182 2.094546v-9.774546a116.363636 116.363636 0 0 1 7.447273-34.676363 131.956364 131.956364 0 0 1 46.545454-59.578182 118.458182 118.458182 0 0 1 66.792728-24.436364 85.178182 85.178182 0 0 0 13.265454-1.163636 16.523636 16.523636 0 0 0 13.498182-10.938182 25.6 25.6 0 0 0 0-13.265454 16.523636 16.523636 0 0 0-14.894546-13.498182z m-73.541818 581.818182h201.076363a15.127273 15.127273 0 0 1 15.825455 13.730909v42.356363a15.127273 15.127273 0 0 1-15.825455 13.730909h-201.076363a15.127273 15.127273 0 0 1-15.825455-13.730909v-42.356363a15.127273 15.127273 0 0 1 15.825455-13.730909z"
+                    fill="#8a8a8a"
+                    opacity=".3"
+                    p-id="21260"
+                  ></path>
+                  <path
+                    d="M605.090909 804.538182h-90.298182A63.767273 63.767273 0 0 1 455.447273 768a50.734545 50.734545 0 0 1-5.818182-26.763636 186.181818 186.181818 0 0 0-27.927273-99.374546 181.992727 181.992727 0 0 0-24.669091-30.254545 415.883636 415.883636 0 0 1-49.803636-67.723637 378.181818 378.181818 0 0 1-33.28-66.56 226.443636 226.443636 0 0 1-11.403636-68.421818 298.123636 298.123636 0 0 1 7.214545-74.705454 266.24 266.24 0 0 1 46.545455-101.003637 319.767273 319.767273 0 0 1 119.621818-103.796363 291.374545 291.374545 0 0 1 65.163636-23.272728 331.170909 331.170909 0 0 1 81.687273-6.516363 281.134545 281.134545 0 0 1 170.356363 65.629091 338.850909 338.850909 0 0 1 72.378182 82.152727 279.272727 279.272727 0 0 1 37.003637 93.090909 276.014545 276.014545 0 0 1 5.12 80.058182 235.054545 235.054545 0 0 1-16.523637 67.490909 389.12 389.12 0 0 1-83.083636 128.232727 147.083636 147.083636 0 0 0-27.229091 42.123637 202.24 202.24 0 0 0-16.756364 48.872727c-1.629091 10.24-1.629091 20.48-2.56 30.487273a147.781818 147.781818 0 0 1-3.258181 23.272727 60.043636 60.043636 0 0 1-29.556364 35.374545 66.327273 66.327273 0 0 1-34.443636 9.076364z m-18.618182-626.734546c-9.774545 0-19.549091 1.861818-29.090909 3.490909a192.930909 192.930909 0 0 0-65.396363 23.272728A209.454545 209.454545 0 0 0 442.181818 243.665455a194.327273 194.327273 0 0 0-37.934545 55.854545 211.781818 211.781818 0 0 0-16.756364 82.850909 25.134545 25.134545 0 0 0 8.378182 19.781818 23.272727 23.272727 0 0 0 20.712727 5.818182 25.134545 25.134545 0 0 0 19.549091-23.272727V372.363636a144.523636 144.523636 0 0 1 8.610909-43.054545A164.538182 164.538182 0 0 1 502.458182 256a146.850909 146.850909 0 0 1 82.850909-30.021818l16.756364-1.396364a20.48 20.48 0 0 0 16.523636-13.730909 25.134545 25.134545 0 0 0 0-16.523636 20.48 20.48 0 0 0-18.152727-16.523637zM488.727273 861.090909h232.727272a18.152727 18.152727 0 0 1 18.152728 18.152727v56.32a18.385455 18.385455 0 0 1-18.152728 18.618182H488.727273a18.385455 18.385455 0 0 1-18.152728-18.385454v-56.785455A18.152727 18.152727 0 0 1 488.727273 861.090909z"
+                    fill="#8a8a8a"
+                    p-id="21261"
+                  ></path></svg
+                ><span data-translate="Thinking">知识</span></a
+              >
+            </li>
+            <li>
+              <a href="project" aria-label="Weibo"
+                ><svg
+                  t="1698054669384"
+                  class="icon"
+                  viewBox="0 0 1024 1024"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  p-id="18181"
+                  width="200"
+                  height="200"
+                >
+                  <path
+                    d="M706 842.3h-52.5l-25.3-124.2c-3-14.7-15.9-25.2-30.9-25.3H426.1c-15 0.1-27.9 10.6-30.9 25.3l-25.9 124.2H318c-17.3 0-31.5 14.2-31.5 31.5s14.2 31.5 31.5 31.5h388c17.3-0.7 31.5-14.2 31.5-31.5s-14.2-31.5-31.5-31.5z m-253.9-87.2H572l17.9 86.5H434.2l17.9-86.5zM960 589V181.1c0-16.6-6.5-32.5-18.2-44.2a62.518 62.518 0 0 0-44.2-18.3H126.4c-16.6 0-32.5 6.5-44.2 18.2C70.5 148.6 64 164.5 64 181.1V589h896z m0 0"
+                    p-id="18182"
+                    fill="#8a8a8a"
+                  ></path>
+                  <path
+                    d="M64 634.7v49.4c0 16.6 6.5 32.5 18.2 44.2 11.7 11.7 27.6 18.3 44.2 18.2h771.2c16.6 0 32.5-6.5 44.2-18.3 11.7-11.7 18.3-27.6 18.2-44.2v-49.4H64z"
+                    p-id="18183"
+                    fill="#8a8a8a"
+                  ></path></svg
+                ><span data-translate="Weibo">项目</span></a
+              >
+            </li>
+            <li>
+              <a href="about" aria-label="Gallery" target="_blank"
+                ><svg
+                  t="1698054806009"
+                  class="icon"
+                  viewBox="0 0 1024 1024"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  p-id="22554"
+                  width="200"
+                  height="200"
+                >
+                  <path
+                    d="M512 85.33C276.74 85.33 85.33 276.73 85.33 512S276.74 938.67 512 938.67 938.67 747.27 938.67 512 747.26 85.33 512 85.33z m0 768c-188.21 0-341.33-153.12-341.33-341.33S323.79 170.67 512 170.67 853.33 323.79 853.33 512 700.21 853.33 512 853.33z"
+                    p-id="22555"
+                    fill="#8a8a8a"
+                  ></path>
+                  <path
+                    d="M469.33 682.67h85.33V768h-85.33zM512 256c-94.26 0-170.67 76.41-170.67 170.67h85.33c0-48.59 40.82-87.83 89.97-85.21 43.03 2.29 78.28 37.54 80.57 80.57C599.83 471.17 560.59 512 512 512v0.17c-23.85 1.74-42.67 21.59-42.67 45.88V640h85.33v-48.04c73.61-18.95 128-85.77 128-165.29C682.67 332.41 606.26 256 512 256z"
+                    p-id="22556"
+                    fill="#8a8a8a"
+                  ></path></svg
+                ><span data-translate="Gallery">关于</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="./js/anime.min.js"></script>
+    <script>
+      window.$ = (selector) => document.querySelector(selector);
+      const getOriginalContent = (selector) =>
+        $(selector).getAttribute("original-content");
+      window.subtitle = getOriginalContent(".content-subtitle");
+      window.signature = getOriginalContent("#signature");
+      window.config = {
+        SIM_RESOLUTION: 128,
+        DYE_RESOLUTION: 1024,
+        CAPTURE_RESOLUTION: 512,
+        DENSITY_DISSIPATION: 1,
+        VELOCITY_DISSIPATION: 0.2,
+        PRESSURE: 0.8,
+        PRESSURE_ITERATIONS: 20,
+        CURL: 30,
+        SPLAT_RADIUS: 0.25,
+        SPLAT_FORCE: 6000,
+        SHADING: true,
+        COLORFUL: true,
+        COLOR_UPDATE_SPEED: 10,
+        PAUSED: false,
+        BACK_COLOR: { r: 30, g: 31, b: 33 },
+        TRANSPARENT: false,
+        BLOOM: true,
+        BLOOM_ITERATIONS: 8,
+        BLOOM_RESOLUTION: 256,
+        BLOOM_INTENSITY: 0.4,
+        BLOOM_THRESHOLD: 0.8,
+        BLOOM_SOFT_KNEE: 0.7,
+        SUNRAYS: true,
+        SUNRAYS_RESOLUTION: 196,
+        SUNRAYS_WEIGHT: 1.0,
+      };
+    </script>
+    <script src="js/main.js"></script>
+    <script src="js/background.js"></script>
+    <script src="registerSW76d7.js?v=5134a598be2f7"></script>
+    <script src="./js/log.min.js"></script>
+  </main>
+</body>
