@@ -1,8 +1,0 @@
-{
-    "routes": [
-        {
-            "src": "/blog/(.*)",
-            "dest": "https://github.com/EanYang7/blog/$1"
-        }
-    ]
-}
