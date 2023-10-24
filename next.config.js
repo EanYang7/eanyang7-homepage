@@ -33,11 +33,11 @@ const nextConfig = {
       // 添加knowledge
       {
         source: "/knowledge",
-        destination: `https://knowledge-eosin-theta.vercel.app/`,
+        destination: `https://knowledge-eosin-theta.vercel.app/knowledge`,
       },
       {
         source: "/knowledge/:path*",
-        destination: `https://knowledge-eosin-theta.vercel.app/:path*`,
+        destination: `https://knowledge-eosin-theta.vercel.app/knowledge/:path*`,
       },
     ];
   },
