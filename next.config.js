@@ -39,6 +39,11 @@ const nextConfig = {
         source: "/knowledge/:path*",
         destination: `https://knowledge-eosin-theta.vercel.app/knowledge/:path*`,
       },
+      // 添加project
+      {
+        source: "/project",
+        destination: `/project.html`,
+      },
     ];
   },
 };
