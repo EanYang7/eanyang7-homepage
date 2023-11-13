@@ -30,13 +30,13 @@ const nextConfig = {
         source: "/doc/:path*",
         destination: `https://doc-ten-lilac.vercel.app/:path*`,
       },
-      // 添加knowledge
+      // 添加learn
       {
-        source: "/knowledge",
-        destination: `https://knowledge-eosin-theta.vercel.app/knowledge`,
+        source: "/learn",
+        destination: `https://knowledge-eosin-theta.vercel.app/learn`,
       },
       {
-        source: "/knowledge/:path*",
+        source: "/learn/:path*",
         destination: `https://knowledge-eosin-theta.vercel.app/knowledge/:path*`,
       },
       // 添加project
