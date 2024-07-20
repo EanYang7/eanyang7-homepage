@@ -44,6 +44,15 @@ const nextConfig = {
         source: "/project",
         destination: `/project.html`,
       },
+      // 添加about
+      {
+        source: "/about",
+        destination: `https://eanyang7-about.vercel.app/about`,
+      },
+      {
+        source: "/about/:path*",
+        destination: `https://eanyang7-about.vercel.app/about/:path*`,
+      },
     ];
   },
 };
